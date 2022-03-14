@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&family=Poppins:wght@200&family=Smooch+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&family=Poppins:wght@200&family=Roboto:wght@300&family=Smooch+Sans&display=swap')
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(65.15deg, #347ab3 16.62%, #87cefa 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    width: 85px;
+    height: 85px;
+
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.cabecalho-menu-item {
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.corpo-da-pagina {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #ffffff;
+}
+
+.corpo-superior {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.corpo-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.corpo-superior-titulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 65px;
+    color: white;
+}
+
+.corpo-superior-paragrafo {
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    
+}
