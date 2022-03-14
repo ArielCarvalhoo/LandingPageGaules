@@ -36,14 +36,14 @@ body {
 
 .cabecalho-menu-item {
     font-family: 'Poppins';
-    color: white;
+    color: #fcfcfc;
     font-weight: 400;
     font-size: 18px;
 }
 
 .corpo-da-pagina {
     margin-bottom: 48px;
-    border-top: 0.4px solid #ffffff;
+    border-top: 0.4px solid #fcfcfc;
 }
 
 .corpo-superior {
@@ -63,13 +63,95 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 65px;
-    color: white;
+    color: #fcfcfc;
 }
 
 .corpo-superior-paragrafo {
     font-family: 'Smooch Sans', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    color: white;
+    color: #fcfcfc;
     
+}
+
+.corpo-button-twitch {
+    background-color: #6441a5;
+}
+
+.corpo-button-youtube {
+    background-color: #cc0000;
+}
+
+.corpo-button-twitter {
+    background-color: #1DA1F2;
+}
+
+.corpo-conteudo a {
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-decoration: none;
+    color: #fcfcfc;
+    display: flex;
+    align-items: center;
+    
+}
+
+.corpo-conteudo button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0,.25);
+    border-radius: 25px;
+}
+
+.corpo-conteudo img {
+    padding-right: 10px;
+    text-align: left;
+    width: 35px;
+    height: 35px;
+}
+
+.corpo-imagem {
+    height: 500px;
+}
+
+.corpo-inferior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    margin-top: 48px;
+}
+
+.corpo-inferior-titulo {
+    border-top: 0.4px solid #fcfcfc;
+    padding-top: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.corpo-inferior-escrita {
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #fcfcfc
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #fcfcfc;
+}
+
+.rodape img {
+    display:block;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
 }
