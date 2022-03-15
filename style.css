@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&family=Poppins:wght@200&family=Smooch+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&family=Poppins:wght@200&family=Roboto:wght@300&family=Smooch+Sans&display=swap')
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Quicksand&display=swap');
 
 * {
     margin: 0;
@@ -23,27 +21,30 @@ body {
 }
 
 .cabecalho-imagem {
-    width: 85px;
-    height: 85px;
-
+    width: 250px;
+    height: 65px;
 }
 
 .cabecalho-menu {
     display: flex;
     gap: 30px;
-    
 }
 
 .cabecalho-menu-item {
-    font-family: 'Poppins';
+    font-family: 'Bebas Neue', cursive;
     color: #fcfcfc;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 22px;
+}
+
+.cabecalho-menu-item:hover {
+    color:#347ab3;
 }
 
 .corpo-da-pagina {
     margin-bottom: 48px;
     border-top: 0.4px solid #fcfcfc;
+    padding-left: 35px;
 }
 
 .corpo-superior {
@@ -60,18 +61,47 @@ body {
 }
 
 .corpo-superior-titulo {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Anton', sans-serif;
     font-weight: 400;
     font-size: 65px;
     color: #fcfcfc;
 }
 
+.corpo-superior-titulo-historia{
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 65px;
+    color: #f5f5f5;
+}
+
+.corpo-superior-titulo-historia-h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #f5f5f5;
+}
+
+.corpo-superior-titulo-historia-h3 {
+    
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400 bold;
+    font-size: 28px;
+    color: #f5f5f5;
+}
+
+.corpo-superior-paragrafo-historia {
+    padding-right: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #f8f8ff;
+}
+
 .corpo-superior-paragrafo {
-    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #fcfcfc;
-    
 }
 
 .corpo-button-twitch {
@@ -87,14 +117,13 @@ body {
 }
 
 .corpo-conteudo a {
-    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 24px;
     text-decoration: none;
     color: #fcfcfc;
     display: flex;
     align-items: center;
-    
 }
 
 .corpo-conteudo button {
@@ -108,15 +137,21 @@ body {
     border-radius: 25px;
 }
 
+.corpo-conteudo button:hover {
+    background-color:rgba(236, 214, 196, 0.25);
+    width: 200px;
+}
+
 .corpo-conteudo img {
+    display:flex;
+    justify-content: space-between;
     padding-right: 10px;
-    text-align: left;
     width: 35px;
-    height: 35px;
+    height: 25px;
 }
 
 .corpo-imagem {
-    height: 500px;
+    height: 380px;
 }
 
 .corpo-inferior {
@@ -130,7 +165,7 @@ body {
 .corpo-inferior-titulo {
     border-top: 0.4px solid #fcfcfc;
     padding-top: 48px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Anton', sans-serif;
     font-weight: 400;
     font-size: 30px;
     color: white;
@@ -138,7 +173,7 @@ body {
 }
 
 .corpo-inferior-escrita {
-    font-family: 'Smooch Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     font-size: 22px;
     color: #fcfcfc
