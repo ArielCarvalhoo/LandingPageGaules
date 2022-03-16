@@ -127,6 +127,11 @@ body {
 }
 
 .corpo-conteudo button {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+    color: #fcfcfc;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -138,6 +143,7 @@ body {
 }
 
 .corpo-conteudo button:hover {
+    transition: 0.5s ease-in-out;
     background-color:rgba(236, 214, 196, 0.25);
     width: 200px;
 }
